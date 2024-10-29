@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col justify-center items-center h-full bg-slate-200">
+    <div
+      class="flex flex-col w-auto h-auto justify-start items-start bg-white rounded-xl shadow-xl pt-5  px-5"
+    >
+      <p class="text-zinc-600 text-xl">Login to Website</p>
+      <form action="" class="flex flex-col gap-5 mt-5">
+        <div class="flex flex-row justify-between">
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email" class="border border-zinc-600  w-[200px] hover:border-violet-500 focus:border-violet-300 ">
+        </div>
+        <div class="flex flex-row justify-between"> 
+            <label for="password" >Password</label>
+            <input type="password" name="password" id="password" class="border border-zinc-600 w-[200px] hover:border-violet-500 focus:border-violet-300">
+        </div>
+        <div class="flex flex-row justify-around gap-5"> 
+          <button class="w-36 p-2 rounded-full bg-violet-500 text-white active:bg-violet-600 hover:bg-violet-400 focus:ring-violet-300 focus:ring-2" type="submit">Sign In</button>
+          <button class="w-36 p-2 rounded-full bg-white text-violet-600  hover:bg-violet-100 focus:ring-violet-300 focus:text-violet-600 focus:ring-2" type="submit">Sign up</button>
+        </div>
+    
+      </form>
+  </body>
+</html>
